@@ -1,0 +1,73 @@
+.portfolio-main{
+   background-color: #006666;
+    height: 100vh;
+    border: black solid 4px;
+  
+    display: flex;
+  flex-direction: column;                 
+  flex-wrap: wrap;                        
+  height: 100vh;                          
+  list-style: none;
+  padding: 0;  
+  
+
+}
+
+ul{
+    border: solid black 4px;
+    display: flex;
+  flex-direction: column;                 
+  flex-wrap: wrap;                        
+  height: 200px;                          
+  list-style: none;
+  padding: 0;  
+
+}
+
+
+li {
+    flex: 0 0 100%;                         
+    display: flex;                      
+    justify-content: center;                
+    align-items: center;                    
+   
+    
+}
+
+li:not(:first-child):not(:last-child) {   
+    flex-basis: 50%;
+  }
+
+.portfolio-main a {
+    background-color: #9dbcbc;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;                         
+    justify-content: center;               
+    align-items: center;    
+}
+
+* { box-sizing: border-box; }
+
+.madden-plays{
+  background-image: url(https://res.cloudinary.com/otisg/image/upload/v1635120494/madden_kjowwi.jpg);
+  background-size: cover;
+}
+
+.tacato-truck{
+  background-image: url(https://res.cloudinary.com/otisg/image/upload/v1635119219/Tacato-cat_f6iun2.png);
+  background-size: cover;
+}
+
+.quad-pack{
+  background-image: url(https://res.cloudinary.com/otisg/image/upload/v1635119161/alabama-travel_tcvqv7.jpg);
+  background-size: cover;
+}
+
+
+.choose-you{
+  background-image: url(https://res.cloudinary.com/otisg/image/upload/v1635119168/pokemon-battle_yaxnom.png);
+  background-size: cover;
+}

@@ -1,0 +1,24 @@
+.footer-container{
+    background-color: #FFF5BB;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+    
+}
+.profile-images{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+
+.footer-container img{
+   height: 50px;
+   width: 50px;
+}
+
+.tag{
+    margin: 5px;
+}
