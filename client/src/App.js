@@ -5,6 +5,8 @@ import Portfolio from "./screens/Portfolio";
 import About from "./screens/About";
 import Main from "./screens/Main";
 import Contact from "./screens/Contact"
+import { sliderData } from "./components/sliderData";
+
 
 function App() {
   return (
@@ -12,7 +14,7 @@ function App() {
       <Layout>
         <Switch>
           <Route exact path="/">
-            <Main />
+            <Main slides = {sliderData} />
           </Route>
           <Route path="/portfolio">
             <Portfolio />
