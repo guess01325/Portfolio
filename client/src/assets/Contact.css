@@ -12,7 +12,10 @@
 .contact-greeting{
     width: 350px;
     font-size: 30px;
+    color: #FFF5BB;
+    overflow-wrap: break-word;
 }
+
 
 .info-form{
     display: flex;

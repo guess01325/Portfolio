@@ -4,20 +4,20 @@ export default function About() {
   return (
     <div className="about-main-container">
       <p>
-        Intuitively driven, passionate, disciplined Software Developer, with a
-        lot of experience in the customer service field. Personable individual
-        with strong integrity. I charm others with my sincereness and
-        willingness to do right, and help others. Bringing top notch service in
-        everthing I do.
+        Intuitively driven, passionate, disciplined Software Engineer, with a
+        lot of experience in the customer service industry. Personable individual
+        with strong integrity and I charm others with my sincereness and
+        willingness to do best by them. Bringing top notch service with everything
+        everthing I do included for my employers.
       </p>
 
       <p>
-        My vast experiences in life, with customers, directing students, and
-        Young Adults, in ministry, as well as lifelong commitment to keep
-        learning and equipping more wisdom, has put me in a very good spot to
-        excell in everything I do. Equiped to work with people well, manage
-        projects, and hard skills to get it done. I am excited to bring these
-        skill to any company, I would be immediately a great asset to yours!
+        My vast experiences in life, with customers, and young Adults, in ministry, as well as a
+         lifelong commitment to keep learning new things, and equip myself with wisdom, and my ability all this to  my new
+          experiences has put me in a tremendous position to succeed. 
+        Equipping me to work with people well, manage
+        projects, and master the hard skills to get it done. I am excited to bring these
+        skill to your company, and would be a great asset to it!
       </p>
     </div>
   );

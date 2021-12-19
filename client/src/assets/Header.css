@@ -1,6 +1,6 @@
 .header-container{
     height: 100px;
-    background-color: #c4c4c4;
+    background-color: #85807F;
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -11,4 +11,5 @@
 
 .header-container a{
     color: #FFF5BB;
+    font-size: 30px;
 }

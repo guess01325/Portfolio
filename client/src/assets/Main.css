@@ -11,43 +11,27 @@
 .main-info{
     font-size: 40px;
     margin: 20px;
+    color: #FFF5BB;
 }
 
 .info{
     font-size: 40px;
     margin: 20px;
-  
-
-}
-.info{
-    font-size: 40px;
-    margin: 20px;
-  
-
-}
-.info{
-    font-size: 40px;
-    margin: 20px;
-  
-
-}
-.info{
-    font-size: 40px;
-    margin: 20px;
+    color: #FFF5BB;
   
 
 }
 
 .instructions{
-    font-size: 30px;
+    font-size: 40px;
     margin: 20px;
+    color: #FFF5BB;
 }
 
 
 
 .main-oval{
-    /* background-color: #9DBCBC; */
-    background-image: url(https://res.cloudinary.com/otisg/image/upload/v1635080983/selfie-1_chyyuj.jpg);
+    background-image: url(https://res.cloudinary.com/otisg/image/upload/v1639890274/ProspectPark_liithp.jpg);
     background-size: cover;
     height: 400px;
     width: 400px;
@@ -57,8 +41,9 @@
     align-items: center;
     justify-content: center;
     margin: 35px;
+    color:#FFF5BB;
+    font-size: 25px;
    
-
 }
 
 

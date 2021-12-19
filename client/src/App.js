@@ -14,7 +14,7 @@ function App() {
       <Layout>
         <Switch>
           <Route exact path="/">
-            <Main slides = {sliderData} />
+            <Main sliderData = {sliderData} />
           </Route>
           <Route path="/portfolio">
             <Portfolio />
