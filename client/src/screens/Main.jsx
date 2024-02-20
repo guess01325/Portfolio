@@ -4,7 +4,7 @@ import { sliderData } from "../components/sliderData";
 import  { useState, useEffect } from "react";
 
 
-export default function Main({ sliderData }) {
+export default function Main({  }) {
 const [current, setCurrent] = useState(0)
 const delay = 1500;
 

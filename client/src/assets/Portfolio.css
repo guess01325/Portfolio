@@ -47,6 +47,8 @@ li:not(:first-child):not(:last-child) {
     display: flex;                         
     justify-content: center;               
     align-items: center;    
+    color: red;
+    font-size: x-large;
 }
 
 * { box-sizing: border-box; }
@@ -69,5 +71,10 @@ li:not(:first-child):not(:last-child) {
 
 .choose-you{
   background-image: url(https://res.cloudinary.com/otisg/image/upload/v1635119168/pokemon-battle_yaxnom.png);
+  background-size: cover;
+}
+
+.inspiring-youth{
+  background-image: url(https://res.cloudinary.com/otisg/image/upload/v1708453682/IYAM_omjvz1.jpg);
   background-size: cover;
 }
