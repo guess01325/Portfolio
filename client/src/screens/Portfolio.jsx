@@ -5,7 +5,7 @@ export default function Portfolio() {
   return (
     <div className="portfolio-main">
       <li className="choose-you">
-        <a href="https://choose-you.herokuapp.com/" target="blank">I choose You</a>
+        <a href="https://choose-you-c1449d99d0dc.herokuapp.com/" target="blank">I choose You</a>
       </li>
       <li className="madden-plays">
       <a href="https://madden-plays.netlify.app/" target="blank"> Madden Plays</a>
