@@ -26,20 +26,9 @@ ul{
 
 
 li {
-    flex: 0 0 100%;                         
-    display: flex;                      
-    justify-content: center;                
-    align-items: center;                    
-   
-    
-}
+              
 
-li:not(:first-child):not(:last-child) {   
-    flex-basis: 50%;
-  }
-
-.portfolio-main a {
-    background-color: #9dbcbc;
+       background-color: #9dbcbc;
     height: 350px;
     width: 350px;
     border-radius: 50%;
@@ -49,6 +38,18 @@ li:not(:first-child):not(:last-child) {
     align-items: center;    
     color: red;
     font-size: x-large;
+    margin: 9px;
+    
+}
+
+/* li:not(:first-child):not(:last-child) {   
+    flex-basis: 50%;
+  } */
+
+.portfolio-main a {
+
+    font-size: x-large; 
+    margin-top: 120px;
 }
 
 * { box-sizing: border-box; }
