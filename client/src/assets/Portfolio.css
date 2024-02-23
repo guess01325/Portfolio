@@ -13,7 +13,7 @@
 
 }
 
-ul{
+/* ul{
     border: solid black 4px;
     display: flex;
   flex-direction: column;                 
@@ -22,7 +22,7 @@ ul{
   list-style: none;
   padding: 0;  
 
-}
+} */
 
 
 li {
@@ -38,7 +38,7 @@ li {
     align-items: center;    
     color: red;
     font-size: x-large;
-    margin: 9px;
+    margin: 20px;
     
 }
 
@@ -46,7 +46,7 @@ li {
     flex-basis: 50%;
   } */
 
-.portfolio-main a {
+.portfolio-main li a {
 
     font-size: x-large; 
     margin-top: 120px;

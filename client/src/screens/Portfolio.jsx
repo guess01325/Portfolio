@@ -11,14 +11,14 @@ export default function Portfolio() {
       <a href="https://madden-plays.netlify.app/" target="blank"> Madden Plays</a>
       </li> 
 
-      <li className="quad-pack">
+      {/* <li className="quad-pack">
         <a href="https://quad-pack.netlify.app/" target="blank">Quad Pack</a>
         
-      </li>
+      </li> */}
 
-      <li className="tacato-truck">
+      {/* <li className="tacato-truck">
         <a href="https://tacato-truck.netlify.app/" target="blank">Tacato Truck</a>
-      </li>
+      </li> */}
 
       <li className="inspiring-youth">
         <a href="https://clinquant-cranachan-d8dc7b.netlify.com/" target="blank">
