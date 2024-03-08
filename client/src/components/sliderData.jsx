@@ -9,6 +9,6 @@
         info: "Success Drivin"
     },
     {
-        info: "Advid Gamer"
+        info: "Avid Gamer"
     }
 ]
