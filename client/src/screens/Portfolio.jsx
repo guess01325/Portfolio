@@ -21,7 +21,7 @@ export default function Portfolio() {
       </li>
 
       <li className="inspiring-youth">
-        <a href="https://clinquant-cranachan-d8dc7b.netlify.com/" target="blank">
+        <a href="https://inspiring-2.netlify.app//" target="blank">
           Inspiring Youth
         </a>
       </li>
