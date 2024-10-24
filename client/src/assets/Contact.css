@@ -37,7 +37,7 @@
 }
 
 #message {
-  width: 100%;
+  width: 110%;
   height: 300px;
 }
 
@@ -57,6 +57,7 @@
         width: 50%;
         font-size: 25px;
         color: #fff5bb;
+        word-wrap: break-word;
       }
     .info-form label {
       font-size: 15px;

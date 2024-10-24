@@ -5,7 +5,7 @@ export default function Contact() {
     <div className="contact-container">
       <section className="contact-greeting">
         I would love to keep in contact with you! Give me your info and we can
-        link. or email me at guess01325@gmail.com
+        link, email me at guess01325@gmail.com as the message field is under construction, use your email app of choice. 
       </section>
       <form className="info-form" action="">
         <label>
