@@ -7,8 +7,9 @@
   
     display: flex;
   flex-direction: row;                 
-  flex-wrap: wrap;                        
-  /* height: 100vh;                           */
+  flex-wrap: wrap;      
+  align-items: center;
+  justify-content: center;                  
   list-style: none;
   padding: 0;  
   
@@ -86,8 +87,14 @@ li {
               
 
   
-    width: 300px;
-    border-radius: 50%;
+    width: 150px;
+    height: 75px;
+    border-radius: 70%;
+}
+.portfolio-main li a {
+
+  font-size: small; 
+  margin-top: 5px;
 }
     
   }
