@@ -53,14 +53,20 @@
       flex-direction: column; /* Stack items vertically on mobile */
     }
 
+    .contact-greeting {
+        width: 50%;
+        font-size: 25px;
+        color: #fff5bb;
+      }
+    .info-form label {
+      font-size: 15px;
+      width: 90%;
+    }
+
     .info-form label input {
         width: 100%;
         margin: 10px;
         font-size: 20px;
       }
 
-      .info-form label {
-        font-size: 15px;
-        width: 90%;
-      }
   }
