@@ -1,6 +1,8 @@
 .portfolio-main{
+
+  
    background-color: #006666;
-    /* height: 100vh; */
+    height: 100vh;
     border: black solid 4px;
   
     display: flex;
@@ -19,9 +21,8 @@ li {
               
 
        background-color: #9dbcbc;
-    height: 350px;
-    width: 300px;
-    border-radius: 50%;
+    width: 400px;
+    /* border-radius: 50%; */
     border: 1px solid black;
     display: flex;                         
     justify-content: center;               
@@ -38,6 +39,9 @@ li {
     font-size: x-large; 
     margin-top: 120px;
 }
+
+
+
 
 
 .madden-plays{
@@ -65,3 +69,25 @@ li {
   background-image: url(https://res.cloudinary.com/otisg/image/upload/v1708453682/IYAM_omjvz1.jpg);
   background-size: cover;
 }
+
+
+@media (max-width: 900px) {
+  .portfolio-main{
+ 
+   
+   flex-direction: column;                 
+
+   
+ 
+ }
+
+    
+li {
+              
+
+  
+    width: 300px;
+    border-radius: 50%;
+}
+    
+  }

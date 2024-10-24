@@ -22,3 +22,19 @@
 .tag{
     margin: 5px;
 }
+
+
+
+
+/* @media (max-width: 768px) {
+    .footer-container{
+        background-color: #FFF5BB;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+        
+    }
+    
+  } */

@@ -31,7 +31,7 @@ export default function Contact() {
           />
         </label>
         <label>
-          <div>Message:</div>
+          Message:
           <textarea
             className="sign-in-inputs"
             id="message"
