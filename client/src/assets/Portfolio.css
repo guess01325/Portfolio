@@ -2,8 +2,8 @@
 
   
    background-color: #006666;
-    height: 100vh;
-    border: black solid 4px;
+    height: 100%;
+    border: black solid 4px;  
   
     display: flex;
   flex-direction: row;                 
@@ -22,8 +22,8 @@ li {
               
 
        background-color: #9dbcbc;
-    width: 400px;
-    /* border-radius: 50%; */
+    height: 400px;
+    width: 350px;
     border: 1px solid black;
     display: flex;                         
     justify-content: center;               
