@@ -29,7 +29,8 @@ if(!Array.isArray(sliderData) || sliderData.length <= 0) {
 
 return (
     <div className="main-container">
-      <div className="main-info">Otis Guess: Sofware Engineer</div>
+      <div className="main-info">Otis Guess: 
+        Sofware Engineer</div>
         <div className="about">
           About Me:
           </div>

@@ -9,7 +9,9 @@
 }
 
 .main-info{
+    text-align: center;
     font-size: 40px;
+    word-wrap: break-word;
     margin: 20px;
     color: #FFF5BB;
 }
@@ -21,8 +23,11 @@
 
 }
 .info{
+    text-align: center;
+    /* width: 200px; */
+
     font-size: 40px;
-    margin: 20px;
+    /* margin: 20px; */
     color: #FFF5BB;
     /* word-wrap: break-word; */
 
@@ -31,6 +36,7 @@
 }
 
 .instructions{
+    text-align: center;
     font-size: 40px;
     margin: 20px;
     color: #FFF5BB;
@@ -62,7 +68,9 @@
         width: 250px;
     }
 
+
     .main-info{
+        width: 200px;
         font-size: 40px;
         margin: 20px;
         color: #FFF5BB;
