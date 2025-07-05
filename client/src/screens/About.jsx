@@ -7,19 +7,11 @@ export default function About() {
       <div className="about-divider" />
 
       <p>
-        Intuitively driven, passionate, disciplined Software Engineer, with a lot of
-        experience in the customer service industry. Personable individual with strong
-        integrity. I charm others with my sincereness and willingness to do best in all
-        my project. Bringing top notch service with everything I do always.
+        I’m an intuitively driven, passionate, and disciplined Software Engineer with a strong background in customer service. I’m known for my sincerity, integrity, and ability to connect with people. I take pride in doing my best in every project and consistently delivering top-notch service with everything I do.
       </p>
 
       <p>
-        My past experiences in life, with customers and young adults in ministry, as well
-        as lifelong commitment to keep learning new things, has put me in a tremendous
-        position to succeed. This all equipping me to work well with people, manage
-        projects in an efficient manner, and master the hard skills to get it done. I am
-        excited to bring these skills to your project or company. I would be an immediate
-        asset to whatever you are trying to accomplish.
+        My life experiences — from working with customers to mentoring young adults in ministry — along with a lifelong commitment to growth and learning, have uniquely equipped me for success. I work well with people, manage projects efficiently, and have developed the technical skills needed to bring ideas to life. I’m excited to contribute these strengths to your company or project and would be a valuable asset to whatever you’re aiming to accomplish.
       </p>
     </div>
   );

@@ -11,10 +11,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        "service_jy3dnij",     // ✅ replace with actual EmailJS service ID
-        "template_pgoqlt1",    // ✅ replace with your template ID
+        "service_jy3dnij",     // ✅ your service ID
+        "template_pgoqlt1",    // ✅ your template ID
         form.current,
-        "3PRdcSQolp0dgo-uQ"      // ✅ replace with your EmailJS public key
+        "3PRdcSQolp0dgo-uQ"    // ✅ your public key
       )
       .then(
         () => {
@@ -32,8 +32,12 @@ export default function Contact() {
     <div className="contact-container">
       <div className="contact-greeting">
         <p>
-          I would love to keep in contact with you, or have you as a client! Give me your info and we can link up.
-          You can email me at <strong>guess01325@gmail.com</strong>.
+          I’d love to connect with you — whether you're a client, collaborator, or just
+          interested in what I do. Drop me a message and I’ll get back to you as soon as possible.
+        </p>
+        <p>
+          📧 Email: <strong>guess01325@gmail.com</strong><br />
+          📞 Call or text: <strong>860-303-0187</strong>
         </p>
         {sent && <p style={{ color: "#fff5bb" }}>✅ Message sent successfully!</p>}
       </div>
