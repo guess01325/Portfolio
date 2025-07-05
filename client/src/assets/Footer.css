@@ -1,40 +1,38 @@
-.footer-container{
-    background-color: #FFF5BB;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center
-    
-}
-.profile-images{
-    display: flex;
-    flex-direction: row;
-    margin: 5px;
+.footer-container {
+  padding: 1rem;
+  font-size: 0.9rem;
+  background-color: #fff8cc;
+  text-align: center;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+ .profile-images {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
 
-.footer-container img{
-   height: 50px;
-   width: 50px;
 }
 
-.tag{
-    margin: 5px;
+.profile-images a {
+  color: #333;
+  transition: color 0.2s ease-in-out;
 }
 
+.profile-images a:hover {
+  color: #0077b5; /* LinkedIn blue */
+}
 
+.footer-container img {
+  height: 32px;
+  width: 32px;
+}
 
+.tag {
+  margin: 5px;
+}
 
-/* @media (max-width: 768px) {
-    .footer-container{
-        background-color: #FFF5BB;
-        height: 100px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center
-        
-    }
-    
-  } */

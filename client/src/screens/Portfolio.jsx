@@ -3,28 +3,31 @@ import { Link } from "react-router-dom";
 
 export default function Portfolio() {
   return (
-    <div className="portfolio-main">
+    <div className="portfolio-wrapper">
+
+    <ul className="portfolio-main">
       <li className="choose-you">
-        <a href="https://battle24.netlify.app/" target="blank">I choose You</a>
+        <a href="https://battle24.netlify.app/" target="_blank">I choose You</a>
       </li>
       <li className="madden-plays">
-      <a href="https://madden-plays.netlify.app/" target="blank"> Madden Plays</a>
+      <a href="https://madden-plays.netlify.app/" target="_blank"> Madden Plays</a>
       </li> 
 
       <li className="quad-pack">
-        <a href="https://quad-pack.netlify.app/" target="blank">Quad Pack</a>
+        <a href="https://quad-pack.netlify.app/" target="_blank">Quad Pack</a>
         
       </li>
 
       <li className="tacato-truck">
-        <a href="https://tacato-trucks.netlify.app" target="blank">Tacato Truck</a>
+        <a href="https://tacato-trucks.netlify.app" target="_blank">Tacato Truck</a>
       </li>
 
       <li className="inspiring-youth">
-        <a href="https://inspiring-2.netlify.app//" target="blank">
+        <a href="https://inspiring-2.netlify.app//" target="_blank">
           Inspiring Youth
         </a>
       </li>
+    </ul>
     </div>
   );
 }
