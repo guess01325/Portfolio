@@ -1,73 +1,77 @@
 .contact-container {
   background-color: #006666;
-  min-height: 100vh; /* Use viewport height */
+  min-height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding: 2rem 1rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
+/* === LEFT SIDE TEXT === */
 .contact-greeting {
-  width: 80%;
-  font-size: 30px;
-  color: #fff5bb;
+  width: 100%;
+  max-width: 400px;
+  font-size: 1.5rem;
+  color: #FFF5BB;
+  line-height: 1.6;
 }
 
+/* === FORM STYLING === */
 .info-form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  border: black 4px solid;
-  width: 90%;
-  margin: 20px;
+  border: 4px solid black;
+  background-color: white;
+  padding: 2rem;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
 }
 
 .info-form label {
-  font-size: 40px;
-  width: 90%;
+  font-size: 1.2rem;
+  color: #222;
+  margin-bottom: 0.5rem;
 }
 
-.info-form label input {
+.info-form input,
+.info-form textarea {
   width: 100%;
-  margin: 10px;
-  font-size: 40px;
-}
-.info-form label input p {
-  padding: 0;
-}
-
-#message {
-  width: 110%;
-  height: 300px;
+  padding: 0.7rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
 }
 
+/* === TEXTAREA SPECIFIC === */
+.info-form textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+/* === RESPONSIVE STYLES === */
 @media (max-width: 768px) {
   .contact-container {
-    flex-direction: column; /* Stack items vertically on mobile */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-greeting {
+    text-align: center;
+    font-size: 1.2rem;
+    width: 90%;
+  }
+
+  .info-form {
+    width: 90%;
+    padding: 1.5rem;
   }
 }
-
-
-@media (max-width: 500px) {
-    .contact-container {
-      flex-direction: column; /* Stack items vertically on mobile */
-    }
-
-    .contact-greeting {
-        width: 50%;
-        font-size: 25px;
-        color: #fff5bb;
-        word-wrap: break-word;
-      }
-    .info-form label {
-      font-size: 15px;
-      width: 90%;
-    }
-
-    .info-form label input {
-        width: 100%;
-        margin: 10px;
-        font-size: 20px;
-      }
-
-  }

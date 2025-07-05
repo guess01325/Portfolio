@@ -1,3 +1,14 @@
+/* === OUTER WRAPPER === */
+.portfolio-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* === MAIN CONTAINER FOR CARDS === */
 .portfolio-main {
   flex: 1;
   display: flex;
@@ -9,12 +20,12 @@
   background-color: #006666;
   border: 4px solid black;
   list-style: none;
-  margin: 0;         /* ✅ remove browser default margins */
-  width: 100%;       /* ✅ force it to take full width */
-  box-sizing: border-box; /* ✅ makes padding not exceed width */
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-
+/* === EACH CARD === */
 .portfolio-main li {
   width: 350px;
   height: 250px;
@@ -27,22 +38,29 @@
   position: relative;
   overflow: hidden;
   text-align: center;
+  transition: transform 0.2s ease;
 }
 
-/* === TEXT INSIDE PROJECT CARD === */
+.portfolio-main li:hover {
+  transform: scale(1.02); /* Optional: hover zoom */
+}
+
+/* === LINK + TEXT INSIDE CARD === */
 .portfolio-main li a {
   font-size: 2rem;
   font-weight: bold;
   color: white;
   text-align: center;
   text-decoration: none;
-  background-color: rgba(0, 0, 0, 0.5); /* Optional: contrast background */
-  padding: 0.5rem 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
   border-radius: 6px;
+  box-sizing: border-box;
 
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -51,17 +69,25 @@
   z-index: 2;
 }
 
-.portfolio-wrapper {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+/* === HEADING + DESCRIPTION INSIDE CARD === */
+.portfolio-main li a h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  padding: 0 0.5rem;
+  word-break: break-word;
 }
 
+.portfolio-main li a p {
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0 0.5rem;
+  line-height: 1.4;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  word-break: break-word;
+}
 
-/* === BACKGROUND IMAGES FOR EACH PROJECT === */
+/* === BACKGROUND IMAGES === */
 .madden-plays {
   background-image: url(https://res.cloudinary.com/otisg/image/upload/v1635120494/madden_kjowwi.jpg);
   background-size: cover;
@@ -92,7 +118,7 @@
   background-position: center;
 }
 
-/* === RESPONSIVE STYLE FOR MOBILE === */
+/* === RESPONSIVE === */
 @media (max-width: 900px) {
   .portfolio-main {
     flex-direction: column;
@@ -107,5 +133,13 @@
   .portfolio-main li a {
     font-size: 1.5rem;
     padding: 0.5rem 1rem;
+  }
+
+  .portfolio-main li a h2 {
+    font-size: 1.25rem;
+  }
+
+  .portfolio-main li a p {
+    font-size: 0.8rem;
   }
 }
