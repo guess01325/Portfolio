@@ -40,10 +40,10 @@ export default function Contact() {
 
       <form ref={form} onSubmit={sendEmail} className="info-form">
         <label htmlFor="name">Name:</label>
-        <input type="text" name="user_name" id="name" placeholder="Enter your name" required />
+        <input type="text" name="name" id="name" placeholder="Enter your name" required />
 
         <label htmlFor="email">Email:</label>
-        <input type="email" name="user_email" id="email" placeholder="Enter your email" required />
+        <input type="email" name="email" id="email" placeholder="Enter your email" required />
 
         <label htmlFor="message">Message:</label>
         <textarea name="message" id="message" placeholder="Your message" />
