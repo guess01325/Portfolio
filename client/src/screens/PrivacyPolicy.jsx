@@ -29,9 +29,9 @@ const PrivacyPolicy = () => {
       <p>You can delete your account within the app. Data is removed or retained only as required.</p>
 
       <h2>Contact</h2>
-      <p>Email: allan@positiveadversity.org</p>
+      <p>Email: your-email@example.com</p>
     </div>
   );
 };
 
-export default PrivacyPolicy;`
+export default PrivacyPolicy;
