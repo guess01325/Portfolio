@@ -91,7 +91,7 @@ const PrivacyPolicy = () => {
         If you have questions about this Privacy Policy, contact:
       </p>
       <p>
-        <strong>Email:</strong> your-email@example.com
+        <strong>Email:</strong> allan@positiveadversity.org
       </p>
     </div>
   );
