@@ -5,7 +5,7 @@ import Portfolio from "./screens/Portfolio";
 import About from "./screens/About";
 import Main from "./screens/Main";
 import Contact from "./screens/Contact";
-import PrivacyPolicy from "./pages/PrivacyPolicy";
+import PrivacyPolicy from "./screens/PrivacyPolicy";
 
 function App() {
   return (
