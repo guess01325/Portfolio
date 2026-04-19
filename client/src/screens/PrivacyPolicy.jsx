@@ -29,7 +29,7 @@ const PrivacyPolicy = () => {
       <p>You can delete your account within the app. Data is removed or retained only as required.</p>
 
       <h2>Contact</h2>
-      <p>Email: your-email@example.com</p>
+      <p>Email: allan@positiveadversity.org</p>
     </div>
   );
 };
