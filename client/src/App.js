@@ -6,6 +6,7 @@ import About from "./screens/About";
 import Main from "./screens/Main";
 import Contact from "./screens/Contact";
 import PrivacyPolicy from "./screens/PrivacyPolicy";
+import SupportPage from "./screens/SupportPage";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/privacy-positive-adversity" element={<PrivacyPolicy />} />
+          <Route path="/support" element={<SupportPage />} />
           
         </Routes>
       </Layout>
