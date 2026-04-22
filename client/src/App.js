@@ -7,6 +7,7 @@ import Main from "./screens/Main";
 import Contact from "./screens/Contact";
 import PrivacyPolicy from "./screens/PrivacyPolicy";
 import SupportPage from "./screens/SupportPage";
+import DeleteAccount from "./pages/DeleteAccount";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/privacy-positive-adversity" element={<PrivacyPolicy />} />
           <Route path="/support" element={<SupportPage />} />
+          <Route path="/delete-account" element={<DeleteAccount />} />
           
         </Routes>
       </Layout>
