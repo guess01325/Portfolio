@@ -7,7 +7,7 @@ import Main from "./screens/Main";
 import Contact from "./screens/Contact";
 import PrivacyPolicy from "./screens/PrivacyPolicy";
 import SupportPage from "./screens/SupportPage";
-import DeleteAccount from "./pages/DeleteAccount";
+import DeleteAccount from "./screens/DeleteAccount";
 
 function App() {
   return (
