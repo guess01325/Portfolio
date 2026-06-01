@@ -118,6 +118,13 @@
   background-position: center;
 }
 
+.positive-adversity {
+  background-image: url("https://positive-adversity.netlify.app/assets/logo-full-DA10MZFH.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /* === RESPONSIVE === */
 @media (max-width: 900px) {
   .portfolio-main {

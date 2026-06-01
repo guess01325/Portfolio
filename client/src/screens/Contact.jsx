@@ -36,7 +36,7 @@ export default function Contact() {
           interested in what I do. Drop me a message and I’ll get back to you as soon as possible.
         </p>
         <p>
-          📧 Email: <strong>guess01325@gmail.com</strong><br />
+          📧 Email: <strong>otis@bestguessdigital.com</strong><br />
           📞 Call or text: <strong>860-303-0187</strong>
         </p>
         {sent && <p style={{ color: "#fff5bb" }}>✅ Message sent successfully!</p>}
