@@ -13,14 +13,12 @@ export default function Portfolio() {
             <div>
               <h2>Positive Adversity</h2>
               <p>
-                A cross-platform business management application available on
-                Web, Android, and iOS. Built for a behavioral health
-                organization to manage employees, clients, payments, events, and
-                internal operations through a secure role-based system.
+                Cross-platform business management app for behavioral health
+                teams.
               </p>
               <p>
-                Built with React, Firebase, Firestore, Tailwind CSS, and
-                Capacitor.
+                Built for Web, Android, and iOS with React, Firebase,
+                Firestore, Tailwind CSS, and Capacitor.
               </p>
             </div>
           </a>

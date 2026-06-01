@@ -120,9 +120,27 @@
 
 .positive-adversity {
   background-image: url("https://positive-adversity.netlify.app/assets/logo-full-DA10MZFH.png");
-  background-size: cover;
+  background-color: #eef7f6;
+  background-size: 70%;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.positive-adversity a {
+  background-color: rgba(0, 0, 0, 0.36);
+}
+
+.positive-adversity a div {
+  max-width: 285px;
+}
+
+.positive-adversity a h2 {
+  margin-bottom: 0.65rem;
+}
+
+.positive-adversity a p + p {
+  margin-top: 0.45rem;
+  font-size: 0.78rem;
 }
 
 /* === RESPONSIVE === */
@@ -148,5 +166,9 @@
 
   .portfolio-main li a p {
     font-size: 0.8rem;
+  }
+
+  .positive-adversity {
+    background-size: 78%;
   }
 }
