@@ -6,7 +6,7 @@ export default function Portfolio() {
       <ul className="portfolio-main">
         <li className="positive-adversity">
           <a
-            href="https://YOUR-POSITIVE-ADVERSITY-LINK.com"
+            href="https://positive-adversity.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
