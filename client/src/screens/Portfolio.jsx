@@ -13,8 +13,9 @@ export default function Portfolio() {
             <div>
               <h2>Positive Adversity</h2>
               <p>
-                Cross-platform business management app for behavioral health
-                teams.
+                Cross-platform management and store app for a mentorship
+                organization supporting youth programs, AAU retail, and company
+                merchandise.
               </p>
               <p>
                 Built for Web, Android, and iOS with React, Firebase,
