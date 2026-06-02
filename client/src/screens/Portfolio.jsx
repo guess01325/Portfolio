@@ -13,13 +13,24 @@ export default function Portfolio() {
             <div>
               <h2>Positive Adversity</h2>
               <p>
-                Cross-platform management and store app for a mentorship
-                organization supporting youth programs, AAU retail, and company
-                merchandise.
+                A cross-platform management and store app for a mentorship
+                organization with youth programs, AAU retail, and merchandise.
               </p>
+            </div>
+          </a>
+        </li>
+
+        <li className="ara-enterprise">
+          <a
+            href="https://www.araenterprisellc.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div>
+              <h2>ARA Enterprise LLC</h2>
               <p>
-                Built for Web, Android, and iOS with React, Firebase,
-                Firestore, Tailwind CSS, and Capacitor.
+                A contractor-focused website for construction, property
+                maintenance, remodeling, roofing, siding, and quote requests.
               </p>
             </div>
           </a>

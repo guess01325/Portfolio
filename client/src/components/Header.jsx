@@ -1,19 +1,26 @@
- import {Link} from "react-router-dom"
- import "../assets/Header.css"
+import { Link } from "react-router-dom";
+import "../assets/Header.css";
+import bestGuessDigitalLogo from "../assets/BestGuessDigital.jpg";
 
 
-export default function Header(){
+export default function Header() {
 
-    return(
-        <div>
-            <div className="header-container">
+    return (
+        <header className="header-container">
+            <Link to="/" className="brand-link" aria-label="Best Guess Digital home">
+                <img
+                    src={bestGuessDigitalLogo}
+                    alt="Best Guess Digital"
+                    className="brand-logo"
+                />
+            </Link>
 
-            <Link to="/">Home</Link>
-            <Link to="/portfolio">Portfolio</Link>
-            <Link to="about">About</Link>
-            <Link to="contact">Contact</Link>
-            
-            </div>
-        </div>
-    )
+            <nav className="header-nav" aria-label="Main navigation">
+                <Link to="/">Home</Link>
+                <Link to="/portfolio">Portfolio</Link>
+                <Link to="/about">About</Link>
+                <Link to="/contact">Contact</Link>
+            </nav>
+        </header>
+    );
 }

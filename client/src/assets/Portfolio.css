@@ -120,14 +120,14 @@
 
 .positive-adversity {
   background-image: url("https://positive-adversity.netlify.app/assets/logo-full-DA10MZFH.png");
-  background-color: #eef7f6;
-  background-size: 70%;
+  background-color: #1f8f88;
+  background-size: 118%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .positive-adversity a {
-  background-color: rgba(0, 0, 0, 0.36);
+  background-color: rgba(0, 0, 0, 0.34);
 }
 
 .positive-adversity a div {
@@ -138,9 +138,25 @@
   margin-bottom: 0.65rem;
 }
 
-.positive-adversity a p + p {
-  margin-top: 0.45rem;
-  font-size: 0.78rem;
+.ara-enterprise {
+  background-image: url("./ara-enterprise-card.png");
+  background-color: #e53e3e;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ara-enterprise a {
+  background-color: rgba(15, 28, 63, 0.34);
+}
+
+.ara-enterprise a div {
+  max-width: 300px;
+}
+
+.ara-enterprise a h2 {
+  color: #ffffff;
+  margin-bottom: 0.65rem;
 }
 
 /* === RESPONSIVE === */
@@ -169,6 +185,10 @@
   }
 
   .positive-adversity {
-    background-size: 78%;
+    background-size: 128%;
+  }
+
+  .ara-enterprise {
+    background-size: cover;
   }
 }

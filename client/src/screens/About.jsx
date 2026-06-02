@@ -7,11 +7,18 @@ export default function About() {
       <div className="about-divider" />
 
       <p>
-        I’m an intuitively driven, passionate, and disciplined Software Engineer with a strong background in customer service. I’m known for my sincerity, integrity, and ability to connect with people. I take pride in doing my best in every project and consistently delivering top-notch service with everything I do.
+        I’m Otis Guess, a software engineer and founder of Best Guess Digital.
+        I build practical web and mobile apps for businesses, organizations, and
+        community-driven projects. My background in customer service, mentoring,
+        and hands-on problem solving helps me understand what people actually
+        need from the software they use.
       </p>
 
       <p>
-        My life experiences — from working with customers to mentoring young adults in ministry — along with a lifelong commitment to growth and learning, have uniquely equipped me for success. I work well with people, manage projects efficiently, and have developed the technical skills needed to bring ideas to life. I’m excited to contribute these strengths to your company or project and would be a valuable asset to whatever you’re aiming to accomplish.
+        I care about building clean, useful systems that make work easier.
+        Whether I’m creating a business app, store, event tool, or portfolio
+        site, my goal is to bring structure, clarity, and reliability to the
+        project from start to finish.
       </p>
     </div>
   );
