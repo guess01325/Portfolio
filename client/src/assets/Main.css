@@ -5,41 +5,53 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    padding: 3rem 1rem;
+    box-sizing: border-box;
 
 }
 
 .main-info{
     text-align: center;
-    font-size: 40px;
+    font-size: 48px;
+    font-weight: 700;
     word-wrap: break-word;
-    margin: 20px;
+    margin: 0;
     color: #FFF5BB;
+    line-height: 1.1;
+    text-shadow: 1px 1px 2px black;
+}
+
+.main-role {
+    color: #ffcc00;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0.5rem 0 1.25rem;
+    text-align: center;
 }
 
 .about{
-    font-size: 40px;
-    margin: 20px;
+    font-size: 32px;
+    margin: 0 0 1rem;
     color: #FFF5BB;
+    font-weight: 700;
 
 }
 .info{
     text-align: center;
-    /* width: 200px; */
-
-    font-size: 40px;
-    /* margin: 20px; */
+    max-width: 780px;
+    font-size: 30px;
     color: #FFF5BB;
-    /* word-wrap: break-word; */
-
-  
+    line-height: 1.35;
+    margin-bottom: 1.25rem;
 
 }
 
 .instructions{
     text-align: center;
-    font-size: 40px;
-    margin: 20px;
+    font-size: 32px;
+    margin: 1rem 0 0;
     color: #FFF5BB;
+    font-weight: 700;
 }
 
 
@@ -54,12 +66,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 35px;
+    margin: 1.5rem 0 0;
     color:#FFF5BB;
     font-size: 38px;
     font-weight: 700;
     text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.75);
+    text-decoration: none;
    
+}
+
+.main-container a {
+    text-decoration: none;
 }
 
 
@@ -73,10 +90,22 @@
 
 
     .main-info{
-        width: 200px;
-        font-size: 40px;
-        margin: 20px;
-        color: #FFF5BB;
+        width: 100%;
+        font-size: 38px;
+    }
+
+    .main-role {
+        font-size: 20px;
+    }
+
+    .about,
+    .instructions {
+        font-size: 26px;
+    }
+
+    .info {
+        font-size: 22px;
+        max-width: 95%;
     }
     
   }

@@ -29,11 +29,9 @@ if(!Array.isArray(sliderData) || sliderData.length <= 0) {
 
 return (
     <div className="main-container">
-      <div className="main-info">Otis Guess: 
-        Software Engineer</div>
-        <div className="about">
-          About Me:
-          </div>
+      <div className="main-info">Otis Guess</div>
+      <div className="main-role">Software Engineer</div>
+      <div className="about">About Me</div>
       <div className="info">
         <div>{sliderData?.[current]?.info}</div>
       </div>

@@ -28,7 +28,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-contact">
-        <a href="mailto:guess01325@gmail.com">guess01325@gmail.com</a> |{" "}
+        <a href="mailto:otis@bestguessdigital.com">otis@bestguessdigital.com</a> |{" "}
         <a href="tel:8603030187">(860) 303-0187</a>
       </div>
 
